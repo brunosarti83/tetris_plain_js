@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TetrisRush</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="column">
+        <div id="next-piece">
+          <canvas id="next-piece-canvas"></canvas>
+        </div>
+        <div id="score-container">
+          <span id="score-label">Score:</span>
+          <span id="score-value">0</span>  
+        </div>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <img hidden src="/gameOver.png" id="gameOver" />
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
